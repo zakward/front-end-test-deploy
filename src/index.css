@@ -26,3 +26,16 @@ main {
 p {
   margin-bottom: 10px;
 }
+
+ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#ul-div{
+  display: flex;
+  height: 50vh;
+  width: 50vw;
+  justify-content: space-between;
+}
